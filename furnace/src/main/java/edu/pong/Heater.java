@@ -2,9 +2,8 @@ package edu.pong;
 
 public interface Heater {
     
-    void engaged(RoomTemperature temperature);
-    void disengaged(RoomTemperature temperature);
-    
-    
-    
+    void engage(RoomTemperature temperature);
+
+    void disengage(RoomTemperature temperature);
+       
 }

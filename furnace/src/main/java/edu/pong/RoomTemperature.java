@@ -3,8 +3,8 @@ package edu.pong;
 public class RoomTemperature {
     private double temperature;
 
-    RoomTemperature(double temeprature){
-        this.temperature = temeprature;
+    RoomTemperature(double temperature){
+        this.temperature = temperature;
     }
 
     public double getTemperature() {
